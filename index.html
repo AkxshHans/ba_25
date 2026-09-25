@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Business Anchor — Anchoring Your Brand in the Digital Spotlight</title>
+<meta name="description" content="Business Anchor builds high-performance websites, AI receptionist systems and growth marketing for local businesses across the Lower Mainland.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+  body{ background:#0b0a09; }
+</style>
+</head>
+<body>
+
+  <div class="grain-overlay" aria-hidden="true"></div>
+
+  <nav class="nav" id="nav">
+    <a class="logo" href="index.html">Business Anchor</a>
+    <div class="nav-links">
+      <a href="services.html">Services</a>
+      <div class="nav-dropdown">
+        <button type="button" class="nav-dropdown-toggle" data-portfolio-toggle>Portfolio <span class="caret">&#9662;</span></button>
+        <div class="nav-dropdown-menu">
+          <button type="button" class="nav-dropdown-menu-close" data-dropdown-close aria-label="Close">&times;</button>
+          <a href="portfolio-website.html">Website</a>
+          <a href="portfolio-logo.html">Logo</a>
+          <a href="portfolio-content-creation.html">Content Creation</a>
+        </div>
+      </div>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="nav-book-btn" data-open-contact>Book Consultation</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="scrim" id="scrim"></div>
+  <div class="mobile-panel" id="mobilePanel">
+    <a href="services.html">Services</a>
+    <button type="button" class="mobile-panel-link" data-portfolio-popup>Portfolio</button>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="mobile-panel-book" data-open-contact>Book Consultation</a>
+  </div>
+
+  <!-- ============ PAGE 1 — HERO ============ -->
+  <section class="hero">
+    <video id="heroVideo" autoplay muted loop playsinline preload="auto" src="hero2.mp4"></video>
+    <div class="hero-bottom">
+      <p class="hero-text hero-anim">
+        <span class="hero-line">We help you</span>
+        <span class="hero-line">skyrocket your sales.</span>
+      </p>
+      <a href="contact.html" class="btn btn-light hero-cta" data-open-contact>Let's Work</a>
+    </div>
+    <div class="hero-scroll-cue" aria-hidden="true"><span></span></div>
+  </section>
+
+  <!-- ============ WHO WE ARE ============ -->
+  <section class="zone" data-zone-top="#0b0a09" data-zone-bottom="rgba(26,25,23,0.62)">
+    <div class="zone-inner tight" style="text-align:center; max-width:760px; margin-left:auto; margin-right:auto;">
+      <span class="eyebrow">Who We Are</span>
+      <h2 class="section-heading">Who We Are</h2>
+      <p class="lead">Business Anchor was born from the conviction that creativity and strategy, together, are one of the most powerful problem solvers in business. We're not just an agency. We're not just a production company. We're a multi-craft studio — bringing branding, design, content and marketing together under one roof, so every project is built to move the needle, not just look good.</p>
+    </div>
+  </section>
+
+  <!-- ============ PAGE 2 — SERVICES (unchanged) ============ -->
+  <section id="services" class="services-banner">
+    <div class="services-visuals" id="servicesVisuals">
+      <div class="visuals-track" id="visualsTrack">
+        <div class="float-img fi-man" data-depth="26"><img src="man.webp" alt=""></div>
+        <div class="float-img fi-phone" data-depth="40"><img src="phone.webp" alt=""></div>
+        <div class="float-img fi-megaphone" data-depth="34"><img src="megaphone.webp" alt=""></div>
+        <div class="float-img fi-mouths" data-depth="48"><img src="mouths.webp" alt=""></div>
+        <div class="dup-set" aria-hidden="true">
+          <div class="float-img fi-man"><img src="man.webp" alt=""></div>
+          <div class="float-img fi-phone"><img src="phone.webp" alt=""></div>
+          <div class="float-img fi-megaphone"><img src="megaphone.webp" alt=""></div>
+          <div class="float-img fi-mouths"><img src="mouths.webp" alt=""></div>
+        </div>
+      </div>
+    </div>
+    <div class="cine-visuals" id="cineVisuals" aria-hidden="true">
+      <div class="cine-item cine-left" data-depth="0.55" data-fx="-6%" data-fy="14%"><img src="icon-chart.webp" alt=""></div>
+      <div class="cine-item cine-left" data-depth="0.85" data-fx="8%" data-fy="-18%"><img src="icon-bulb.webp" alt=""></div>
+      <div class="cine-item cine-left" data-depth="1.15" data-fx="-4%" data-fy="6%"><img src="icon-insta.webp" alt=""></div>
+      <div class="cine-item cine-right" data-depth="0.6" data-fx="-10%" data-fy="-14%"><img src="icon-globe.webp" alt=""></div>
+      <div class="cine-item cine-right" data-depth="0.95" data-fx="4%" data-fy="16%"><img src="icon-clapper.webp" alt=""></div>
+      <div class="cine-item cine-right" data-depth="1.25" data-fx="-16%" data-fy="4%"><img src="icon-chart.webp" alt=""></div>
+    </div>
+    <div class="section-inner">
+      <span class="eyebrow">01 — Services</span>
+      <h2 class="section-heading">What We Do</h2>
+      <p class="lead">We build focused growth systems — strategy, design and execution working as one — so every campaign compounds instead of starting from zero.</p>
+    </div>
+  </section>
+
+  <div class="services-grid">
+    <div class="service-card">
+      <span class="service-num">01</span>
+      <h3>Brand Strategy</h3>
+      <p>Positioning, messaging and identity systems that make your business instantly recognizable and easy to trust.</p>
+    </div>
+    <div class="service-card">
+      <span class="service-num">02</span>
+      <h3>Performance Marketing</h3>
+      <p>Data-driven campaigns across search, social and email built to lower acquisition cost and scale steadily.</p>
+    </div>
+    <div class="service-card">
+      <span class="service-num">03</span>
+      <h3>Web &amp; Product Design</h3>
+      <p>Clean, conversion-focused digital experiences that turn visitors into customers and customers into advocates.</p>
+    </div>
+  </div>
+  <div class="services-pad"></div>
+
+  <!-- ============ REST OF SITE — dark/grey scroll-gradient zones ============ -->
+
+  <section id="work" class="zone page3-section" data-zone-top="rgba(26,25,23,0.62)" data-zone-bottom="rgba(11,10,9,0.78)">
+    <div class="page3-deco reveal" id="page3Deco" aria-hidden="true">
+      <div class="deco-top"><img src="page3-top.webp" alt=""></div>
+      <div class="deco-books"><img src="page3-books.webp" alt=""></div>
+      <div class="deco-pen"><img src="page3-pen.webp" alt=""></div>
+    </div>
+    <div class="zone-inner">
+      <div class="work-intro">
+        <div>
+          <span class="eyebrow">02 — Portfolio</span>
+          <h2 class="section-heading">Portfolio</h2>
+        </div>
+      </div>
+
+      <div class="work-intro subsection-intro">
+        <div>
+          <span class="eyebrow">Website</span>
+        </div>
+      </div>
+      <div class="work-grid">
+        <a class="work-item tilt3d reveal" href="https://www.niccolomiranda.com/" target="_blank" rel="noopener"><img class="work-img" src="work-1.jpg" alt="Niccolo Miranda website"><div class="tint"></div><div class="info"><span>Portfolio</span><h3>Niccolo Miranda</h3></div></a>
+        <a class="work-item tilt3d reveal" href="https://advocatemayankdhingra.com/" target="_blank" rel="noopener"><img class="work-img" src="work-2.jpg" alt="Advocate Mayank Dhingra website"><div class="tint"></div><div class="info"><span>Legal</span><h3>Advocate Mayank Dhingra</h3></div></a>
+        <a class="work-item tilt3d reveal" href="https://sanjaykalradentalclinic.com/" target="_blank" rel="noopener"><img class="work-img" src="work-3.jpg" alt="Sanjay Kalra Dental Clinic website"><div class="tint"></div><div class="info"><span>Healthcare</span><h3>Sanjay Kalra Dental Clinic</h3></div></a>
+        <a class="work-item tilt3d reveal" href="https://golisoda.netlify.app/" target="_blank" rel="noopener"><img class="work-img" src="work-4.jpg" alt="Goli Soda website"><div class="tint"></div><div class="info"><span>Food &amp; Beverage</span><h3>Goli Soda</h3></div></a>
+        <a class="work-item work-item-wide tilt3d reveal" href="https://www.raunaqhomestay.com/" target="_blank" rel="noopener"><img class="work-img" src="work-5.jpg" alt="Raunaq Homestay website"><div class="tint"></div><div class="info"><span>Hospitality</span><h3>Raunaq Homestay</h3></div></a>
+      </div>
+
+      <div class="work-intro logo-intro subsection-intro">
+        <div>
+          <span class="eyebrow">Logo</span>
+        </div>
+      </div>
+      <div class="logo-grid">
+        <div class="logo-item tilt3d reveal logo-item-tall"><img class="logo-img" src="logo-1.webp" alt="Fateh Boutique logo design"><div class="logo-tint"></div><span class="logo-name">Fateh Boutique</span></div>
+        <div class="logo-item tilt3d reveal"><img class="logo-img" src="logo-2.webp" alt="Silks Studio logo design"><div class="logo-tint"></div><span class="logo-name">Silks Studio</span></div>
+        <div class="logo-item tilt3d reveal"><img class="logo-img" src="logo-3.webp" alt="Sara logo design"><div class="logo-tint"></div><span class="logo-name">Sara</span></div>
+        <div class="logo-item tilt3d reveal"><img class="logo-img" src="logo-4.webp" alt="Rent Wheels Punjab logo design"><div class="logo-tint"></div><span class="logo-name">Rent Wheels Punjab</span></div>
+        <div class="logo-item tilt3d reveal"><img class="logo-img" src="logo-5.webp" alt="Nua logo design"><div class="logo-tint"></div><span class="logo-name">Núa</span></div>
+        <div class="logo-item tilt3d reveal"><img class="logo-img" src="logo-6.webp" alt="Heritage rider emblem logo design"><div class="logo-tint"></div><span class="logo-name">Heritage Emblem</span></div>
+        <div class="logo-item tilt3d reveal"><img class="logo-img" src="logo-7.webp" alt="Pure North Cannabis Co logo design"><div class="logo-tint"></div><span class="logo-name">Pure North Cannabis Co.</span></div>
+      </div>
+
+      <div class="work-intro logo-intro subsection-intro" id="portfolio-content-creation">
+        <div>
+          <span class="eyebrow">Content Creation</span>
+        </div>
+      </div>
+      <div class="video-grid">
+        <div class="video-card">
+          <video loop muted playsinline preload="metadata" src="content-1.mp4"></video>
+          <span class="video-card-tag">Reel</span>
+          <button type="button" class="video-sound-btn" aria-label="Unmute video">
+            <svg class="icon-muted" viewBox="0 0 24 24"><path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06a8.99 8.99 0 003.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z"/></svg>
+            <svg class="icon-unmuted" viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
+          </button>
+        </div>
+        <div class="video-card">
+          <video loop muted playsinline preload="metadata" src="content-2.mp4"></video>
+          <span class="video-card-tag">Reel</span>
+          <button type="button" class="video-sound-btn" aria-label="Unmute video">
+            <svg class="icon-muted" viewBox="0 0 24 24"><path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06a8.99 8.99 0 003.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z"/></svg>
+            <svg class="icon-unmuted" viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
+          </button>
+        </div>
+        <div class="video-card">
+          <video loop muted playsinline preload="metadata" src="content-3.mp4"></video>
+          <span class="video-card-tag">Reel</span>
+          <button type="button" class="video-sound-btn" aria-label="Unmute video">
+            <svg class="icon-muted" viewBox="0 0 24 24"><path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06a8.99 8.99 0 003.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z"/></svg>
+            <svg class="icon-unmuted" viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
+          </button>
+        </div>
+        <div class="video-card">
+          <video loop muted playsinline preload="metadata" src="content-4.mp4"></video>
+          <span class="video-card-tag">Reel</span>
+          <button type="button" class="video-sound-btn" aria-label="Unmute video">
+            <svg class="icon-muted" viewBox="0 0 24 24"><path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06a8.99 8.99 0 003.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z"/></svg>
+            <svg class="icon-unmuted" viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
+          </button>
+        </div>
+      </div>
+      <div class="content-grid" style="margin-top:20px;">
+        <div class="content-card reveal tilt3d">
+          <span class="content-tag">Social Captions</span>
+          <p>"Not just another sale — this is your sign to finally treat yourself. New arrivals just dropped, and they won't last the week. Shop now, thank us later."</p>
+        </div>
+        <div class="content-card reveal tilt3d">
+          <span class="content-tag">Website Copy</span>
+          <p>"Built to Convert, Not Just Impress. Every word on your homepage should move a visitor closer to becoming a customer — we write copy that sells while it sounds effortless."</p>
+        </div>
+        <div class="content-card reveal tilt3d">
+          <span class="content-tag">Email &amp; Ad Copy</span>
+          <p>"Subject: You left something behind... Your cart's still waiting, and so are 200+ happy customers who didn't. Complete your order in the next 24 hours and get free shipping on us."</p>
+        </div>
+        <div class="content-card reveal tilt3d">
+          <span class="content-tag">Blog &amp; SEO Articles</span>
+          <p>"Choosing the right marketing agency isn't about who has the flashiest portfolio — it's about who understands your business well enough to grow it. Here's exactly what to look for."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHY CHOOSE US ============ -->
+  <section class="zone" data-zone-top="rgba(11,10,9,0.78)" data-zone-bottom="rgba(20,19,18,0.85)">
+    <div class="zone-inner tight" style="text-align:center;">
+      <span class="eyebrow">03 — Why Choose Us</span>
+      <h2 class="section-heading">Why Choose Us</h2>
+      <p class="lead" style="max-width:560px; margin-left:auto; margin-right:auto;">Because your brand deserves more than just marketing.</p>
+      <div class="why-choose-grid">
+        <div class="why-choose-card reveal">
+          <span class="why-choose-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3l7 3v6c0 4.5-3 8-7 9-4-1-7-4.5-7-9V6l7-3z"/></svg>
+          </span>
+          <h3>Creative Team</h3>
+          <p>Skilled professionals with years of experience in web, SEO, design, and media.</p>
+        </div>
+        <div class="why-choose-card reveal">
+          <span class="why-choose-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M15 9l-2 6-6 2 2-6 6-2z"/></svg>
+          </span>
+          <h3>All-in-One Services</h3>
+          <p>Every project is tailored to meet your unique business needs.</p>
+        </div>
+        <div class="why-choose-card reveal">
+          <span class="why-choose-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 20h18M6 20v-6m6 6V8m6 12v-9"/><path d="M4 12l5-5 4 3 7-7"/></svg>
+          </span>
+          <h3>Results-Driven Approach</h3>
+          <p>We focus on strategies that deliver measurable success.</p>
+        </div>
+        <div class="why-choose-card reveal">
+          <span class="why-choose-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14.7 6.3a1 1 0 010 1.4L8.4 14l-3-3 6.3-6.3a1 1 0 011.4 0l1.6 1.6zM8.4 14l-1 4 4-1"/><path d="M17 3l4 4-2 2-4-4 2-2z"/></svg>
+          </span>
+          <h3>Cutting-Edge Technology</h3>
+          <p>We use the latest tools and trends to keep you ahead of the competition.</p>
+        </div>
+        <div class="why-choose-card reveal">
+          <span class="why-choose-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 8l4 3 5-7 5 7 4-3-2 11H5L3 8z"/></svg>
+          </span>
+          <h3>Creative &amp; Strategic</h3>
+          <p>A perfect blend of creativity and data-driven decision-making.</p>
+        </div>
+        <div class="why-choose-card reveal">
+          <span class="why-choose-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="8" width="18" height="12" rx="1.5"/><path d="M9 8V6a2 2 0 012-2h2a2 2 0 012 2v2M3 13h18"/></svg>
+          </span>
+          <h3>All-in-One Services</h3>
+          <p>From branding to marketing, we handle it all.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SHOWCASE VIDEO — full screen, autoplay loop ============ -->
+  <section class="showcase-video">
+    <video autoplay muted loop playsinline preload="auto" src="showcase.mp4"></video>
+    <div class="showcase-video-tint"></div>
+  </section>
+
+  <section class="zone" data-zone-top="rgba(35,33,32,0.68)" data-zone-bottom="rgba(18,17,16,0.82)">
+    <div class="zone-inner tight">
+      <div class="why-grid">
+        <div class="why-card reveal tilt3d">
+          <span class="why-num">01</span>
+          <h3>Intelligent AI</h3>
+          <p>Scale your response with 24/7 AI-powered receptionists that never miss a lead.</p>
+        </div>
+        <div class="why-card reveal tilt3d">
+          <span class="why-num">02</span>
+          <h3>Unmatched Speed</h3>
+          <p>High-performance websites built for rapid loading and instant user engagement.</p>
+        </div>
+        <div class="why-card reveal tilt3d">
+          <span class="why-num">03</span>
+          <h3>Proven Results</h3>
+          <p>Data-driven strategies designed to drive leads and maximize your marketing ROI.</p>
+        </div>
+        <div class="why-card reveal tilt3d">
+          <span class="why-num">04</span>
+          <h3>Total Clarity</h3>
+          <p>Full transparency in our reporting and execution to build long-term business trust.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="zone" data-zone-top="rgba(20,19,18,0.75)" data-zone-bottom="rgba(2,2,2,0.9)">
+    <div class="zone-inner cta-band">
+      <span class="eyebrow">Secure Your Digital Success</span>
+      <h2 class="section-heading">Anchor Your Success<br>with Digital Excellence</h2>
+      <p>Book a free strategy call today and discover how our digital solutions can anchor your brand's growth and drive high-quality leads.</p>
+      <div class="cta-row">
+        <a href="contact.html" class="btn btn-light" data-open-contact>Book a Call Now</a>
+        <a href="about.html" class="btn btn-outline">Learn About Us</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="zone" data-zone-top="rgba(10,9,8,0.86)" data-zone-bottom="rgba(0,0,0,0.96)">
+    <div class="footer-grid">
+      <div>
+        <span class="fname">Business Anchor</span>
+        <p class="ftag">Anchoring your brand in the digital spotlight — high-performance websites, AI reception and growth marketing for local businesses.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio-website.html">Portfolio</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Get in Touch</h4>
+        <a href="mailto:krmrandip@gmail.com">krmrandip@gmail.com</a>
+        <a href="tel:+16724720099">+1 672-472-0099</a>
+        <span>Lower Mainland</span>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year></span> Business Anchor. All rights reserved.</span>
+      <span>Lower Mainland, BC</span>
+      <span class="footer-legal-links"><a href="privacy-policy.html">Privacy Policy</a> · <a href="terms-and-conditions.html">Terms &amp; Conditions</a></span>
+    </div>
+  </footer>
+
+  <div class="contact-modal" id="contactModal" aria-hidden="true">
+    <div class="contact-modal-scrim" data-modal-close></div>
+    <div class="contact-modal-panel" role="dialog" aria-modal="true" aria-labelledby="contactModalTitle">
+      <button type="button" class="contact-modal-close" data-modal-close aria-label="Close">&times;</button>
+      <span class="eyebrow">Let's Talk</span>
+      <h3 id="contactModalTitle">Start Your Project</h3>
+      <p class="contact-modal-sub">Tell us a bit about your business and we'll get back to you within one business day.</p>
+      <form data-contact-form class="contact-modal-form">
+        <div class="hp-field" aria-hidden="true">
+          <label for="modalCompany">Company</label>
+          <input type="text" id="modalCompany" name="company" tabindex="-1" autocomplete="off">
+        </div>
+        <div class="field">
+          <label for="modalName">Name</label>
+          <input type="text" id="modalName" name="name" required>
+        </div>
+        <div class="field">
+          <label for="modalEmail">Email</label>
+          <input type="email" id="modalEmail" name="email" required>
+        </div>
+        <div class="field">
+          <label for="modalPhone">Phone</label>
+          <input type="tel" id="modalPhone" name="phone">
+        </div>
+        <div class="field">
+          <label for="modalMessage">What do you need help with?</label>
+          <textarea id="modalMessage" name="message" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+        <p class="form-note">Thank you — your message has been received. We'll be in touch within one business day.</p>
+        <p class="form-error">Something went wrong sending your message — please try again, or email us directly.</p>
+      </form>
+      <p class="contact-modal-alt">Prefer email? Reach us directly at <a href="mailto:krmrandip@gmail.com">krmrandip@gmail.com</a></p>
+    </div>
+  </div>
+
+  <div class="portfolio-popup" id="portfolioPopup" aria-hidden="true">
+    <div class="portfolio-popup-scrim" data-portfolio-popup-close></div>
+    <div class="portfolio-popup-panel" role="dialog" aria-modal="true" aria-labelledby="portfolioPopupTitle">
+      <button type="button" class="portfolio-popup-close" data-portfolio-popup-close aria-label="Close">&times;</button>
+      <span class="eyebrow">Portfolio</span>
+      <h3 id="portfolioPopupTitle">Explore Our Work</h3>
+      <div class="portfolio-popup-links">
+        <a href="portfolio-website.html">Website</a>
+        <a href="portfolio-logo.html">Logo</a>
+        <a href="portfolio-content-creation.html">Content Creation</a>
+      </div>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>

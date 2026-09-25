@@ -1,0 +1,18 @@
+# Netlify config for the Business Anchor site.
+#
+# This is a plain static site (HTML/CSS/JS + assets in this same folder), plus
+# one serverless function that emails contact-form submissions. Netlify picks
+# this file up automatically — you don't need to change any settings in the UI.
+
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+# script.js always calls fetch('/api/contact'). Netlify's functions actually
+# live at /.netlify/functions/contact, so this rewrites one to the other
+# transparently — the frontend code never needs to know the difference
+# between Netlify and Vercel.
+[[redirects]]
+  from = "/api/contact"
+  to = "/.netlify/functions/contact"
+  status = 200

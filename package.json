@@ -1,0 +1,7 @@
+{
+  "name": "business-anchor-website",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  }
+}
